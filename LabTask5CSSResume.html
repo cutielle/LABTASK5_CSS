@@ -13,14 +13,17 @@
             display: flex;
             list-style-type: none;
             justify-content: center;
-            gap: 3rem;
-            margin-bottom: 3rem;
+            gap: 5rem;
+            margin-bottom: 1rem;
             margin-left: 0px;
             padding-left: 13px;
+            font-weight: bold;
         }
 
-        li a{
-            color: #fbeeff;
+        .con1{
+            color: #B9828F;
+            font-family: fantasy;
+            letter-spacing: 1px;
         }
 
         img{
@@ -31,26 +34,32 @@
         }
 
         h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            color: #fbeeff;
+            color: #B9828F;
         }
-        
-        b{
+
+        .info1{
+            font-weight: bolder;
+            font-size: 20px;
+            margin-bottom: 0.5rem;
+            color: #dbb7bf;
             display: flex;
             justify-content: center;
             align-items: center;
             line-height: 15px;
         }
 
-        .identity2{
+        .info2{
            display: flex;
            justify-content: center;
            align-items: center;
            margin-top: 1px;
            margin-bottom: 1px;
            letter-spacing: normal;
+
         }
         a {
             text-decoration: none;
@@ -58,13 +67,7 @@
         }
         a:hover{
             color: #B9828F;
-        }
-        h2{
-            color: white;
-        }
-        b{
-            color: white;
-            font-weight: 200;
+            font-style: italic;
         }
         p{
             color: white;
@@ -77,18 +80,26 @@
             color: white;
             font-weight: 200;
         }
-        table{
+
+        #tab1{
             border: white solid 1px;
             border-radius: 5px;
-        }
-        tr, td{
             border-radius: 3px;
             color: #fbeeff;
+            text-align: center;
         }
+
+        #tab2{
+            background-color: #dbb7bf;
+            color: black;
+        }
+
         button{
             display: block;
             margin: auto;
-            color: black;
+            color: WHITE;
+            background-color: #B9828F;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 
@@ -98,30 +109,28 @@
     <body>
         <nav>
             <ul class="menu">
-                <li class="menu1"><a href="#Summary" type="self">Summary</a>
-                <li class="menu1"><a href="#Education">Education</a>
-                <li class="menu1"><a href="#Experience">Experience</a>
-                <li class="menu1"><a href="#References">References</a>
+                <li class="menu1"><a href="#Summary" type="self">SUMMARY</a>
+                <li class="menu1"><a href="#Education">EDUCATION</a>
+                <li class="menu1"><a href="#Experience">EXPERIENCE</a>
+                <li class="menu1"><a href="#References">REFERENCES</a>
             </ul>
         </nav>
         <a href="Top"></a>
         <img src="https://cdn.discordapp.com/attachments/1206214260238061650/1206233958258577459/photo_2024-02-11_21-41-56.jpg?ex=65db43ea&is=65c8ceea&hm=8ef27f4c585c9c42267feb5233bdbb13bdcd63a948aebf370c0a12f1294b9b34&" width="200px" height="200px" border="2px">
         
         <h1 id="name">MACALINO, JANELLE D.</h1>  
-                <b>Email:</b> <p class="identity2"><a href="jnllmcln@gmail.com">jnllmcln@gmail.com</a></p><br>
-                <b>Phone:</b> <p class="identity2">+63 966 684 5008</p><br>
-                <b>Address:</b> <p class="identity2">Brgy. Castillo, Concepcion, Tarlac</p><br>
-                <b>LinkedIn:</b> <p class="identity2"><a href="https://github.com/cutielle/">Janelle Macalino</a></p><br>
-        <hr width="99%">
+                <b class="info1">Email:</b> <p class="info2"><a href="mailto: jnllmcln@gmail.com" target="_blank">jnllmcln@gmail.com</a></p><br>
+                <b class="info1">Phone:</b> <p class="info2"><a href="tel:+639666845008" target="_blank">+63 966 684 5008</a></p><br>
+                <b class="info1">Address:</b> <p class="info2"><a href="https://www.google.com/maps/place/Castillo/@15.3040442,120.7360721,17z/data=!3m1!4b1!4m6!3m5!1s0x3396e7ba676dc66b:0x4a4b5f4506486e06!8m2!3d15.3040442!4d120.738647!16s%2Fg%2F11k9swnp7q?entry=ttu" alt="location" target="_blank">Brgy. Castillo, Concepcion, Tarlac</a></p><br>
+                <b class="info1">LinkedIn:</b> <p class="info2"><a href="https://github.com/cutielle/" target="_blank">Janelle Macalino</a></p><br>
+        <hr width="99%" color="#dbb7bf">
 
         <a name="Summary"></a>
-        <h2>Career Objective</h2>
-        <p>
-            Committed to enhancing skills aligned with my course for a strong foundation, seeking internship opportunities. <br>
-        </p>
+        <h2 class="con1">CAREER OBJECTIVE</h2>
+        <p>Committed to enhancing skills aligned with my course for a strong foundation, seeking internship opportunities. </p><br>
     
         <a name='Education'></a>
-        <h2>Education</h2>
+        <h2 class="con1">EDUCATION</h2>
         <p>
             <ul type="disc">
                 <li>Bachelor of Science in Information Technology</li>
@@ -133,35 +142,35 @@
                 <li>Elementary</li>
                 <i>Castillo Elementary School - Year 2016</i>
             </ul>
-        </p>
+        </p><br>
 
         <a name="Experience"></a>
-        <h2>Work Experience or Seminars and Workshop Attended</h2>
+        <h2 class="con1">WORK EXPERIENCE</h2>
         <p>
             Benigno S. Aquino National High School - Work Immersion <br>
             Start-Up Company: Bead Influence: "Be the B!" <br>
             Financial Manager <br>
-        </p>
+        </p><br>
         
-        <h2>Hardware Skills</h2>
-        <p><i>N/A</i></p>
+        <h2 class="con1">HARDWARE SKILLS</h2>
+        <p><i>N/A</i></p><br>
 
-        <h2>Software Skills</h2>
-        <p>Graphic design, Java, HTML, Data analysis, and Office Productivity Suites</p>
+        <h2 class="con1">SOFTWARE SKILLS</h2>
+        <p>Graphic design, Java, HTML, Data analysis, and Office Productivity Suites</p><br>
             
-        <h2>Additional Skills</h2>
+        <h2 class="con1">ADDITIONAL SKILLS</h2>
         <p>
             Communication Skill <br>
             Problem Solving Skill <br>
             Leadership Skill <br>
-        </p> <br>
+        </p><br>
     
-        <h2>Character Reference</h2>
+        <h2 class="con1">CHARACTER REFERENCE</h2>
         <a name="References"></a>
-        <table border="1px" width="1000px" height="5px" cellpadding="1px" cellspacing="auto">
+        <table id="tab1" border="2px" width="1000px" height="5px" cellpadding="1px" cellspacing="auto">
 
-            <tr>
-                <th>FULL NAME</th>
+            <tr id="tab2">
+                <th class=>FULL NAME</th>
                 <th>DESIGNATION</th>
                 <th>EMAIL</th>
                 <th>CONTACT</th> 
@@ -187,7 +196,7 @@
     
         <p>I hereby ceratify that the information provided in this form is complete, true, and correct to the best of my knowledge.</p> <br>
 
-        <button><a href='#Top'>Back To Top</a></button>
+        <button><a href='#Top'>BACK TO THE TAP</a></button>
     </body>
 </body>
 </html>
